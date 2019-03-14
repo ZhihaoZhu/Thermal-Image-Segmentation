@@ -24,9 +24,6 @@ def segmentation(imag):
     ret, binarized = cv2.threshold(blurred, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
     return binarized
 
-# imag = cv2.imread('./house.jpg',0)
-# print(imag.shape)
-
 
 vidcap = cv2.VideoCapture('output.avi')
 success,image = vidcap.read()
