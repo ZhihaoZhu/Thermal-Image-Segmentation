@@ -1,5 +1,11 @@
 import numpy as np
+import collections
 
-x = [[1,2,3],[4,5,6],[7,8,9]]
-x = zip(*x[::-1])
-print(x)
+x = " a  b c "
+x1 = " aa  b c "
+
+y = collections.Counter(x)
+y1 = collections.Counter(x1)
+
+
+print(not y1-y)
