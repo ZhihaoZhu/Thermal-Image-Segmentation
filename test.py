@@ -9,3 +9,4 @@ y1 = collections.Counter(x1)
 
 
 print(not y1-y)
+new
